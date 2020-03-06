@@ -1,5 +1,6 @@
 package pl.sdacademy.designpatterns.factory;
 
+
 import pl.sdacademy.designpatterns.factory.car.*;
 
 // A4 -> Audi A4,diesel, 2,5 diesel, 6c
@@ -29,4 +30,5 @@ public class CombiCarFactory implements AbstractFactory <Car> {
     private Car createToyotaCorollaCombi (){
         return new Toyota("TC", EngineType.GASOLINE_NATURALLY_ASPIRATED, 2.0, 4, BodyType.COMBI);
     }
-}
+
+  }
